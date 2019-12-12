@@ -1,0 +1,15 @@
+ler a matriz
+sempre ao terminar algum passo enviar as linhas da fronteira
+    rank = 0
+        enviar a ultima linha pro rank 1
+    rank entre 1 e n-1
+        enviar a primeira para o "rank-1" e a ultima linha pro "rank+1"
+    rank n
+        enviar a primeira linha pro rank n-1
+sempre quando comecar algum passo
+    rank = 0
+        receber a ultima linha do rank 1
+    rank entre 1 e n-1
+        receber a primeira linha do "rank-1" e a ultima do "rank+1"
+    rank n
+        receber a primeira linha do rank n-1 
